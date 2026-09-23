@@ -1,0 +1,21 @@
+{
+  "name": "vercel-speedtest",
+  "version": "1.0.0",
+  "description": "A clean, minimalist internet speed test application built with Vercel Geist design language.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "npx netlify-cli deploy --prod --dir=.",
+    "deploy:draft": "npx netlify-cli deploy --dir=."
+  },
+  "keywords": [
+    "speedtest",
+    "vercel",
+    "geist",
+    "bandwidth",
+    "ping",
+    "jitter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
